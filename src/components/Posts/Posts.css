@@ -1,0 +1,7 @@
+.RedStars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin-left: 150px;
+    margin-top: 30px;
+}

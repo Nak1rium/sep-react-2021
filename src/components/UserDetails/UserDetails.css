@@ -1,0 +1,35 @@
+.main_UserDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    margin-top: 15px;
+    margin-left: 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    font-size: 18px;
+}
+
+.main_UserDetails span {
+    font-weight: bold;
+}
+
+.margin_top_15px {
+    margin-top: 15px;
+}
+
+.margin_top_5px {
+    margin-top: 5px;
+}
+
+.margin_top_10px {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 25px;
+}
+
+
