@@ -1,0 +1,18 @@
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+
+    font-size: 18px;
+}
+
+.car span {
+    font-weight: bold;
+}
