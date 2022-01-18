@@ -1,12 +1,12 @@
 .main {
-    width: 800px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
     row-gap: 10px;
-    margin-left: 270px;
+    margin-left: 170px;
     column-gap: 20px;
 }
 

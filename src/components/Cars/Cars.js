@@ -3,7 +3,7 @@ import {carService} from "../../services/car.service";
 import Car from "../Car/Car";
 
 
-const Cars = ({trigger}) => {
+const Cars = ({trigger,update}) => {
     const [cars, setCars] = useState([]);
 
     useEffect(() => {
@@ -12,7 +12,7 @@ const Cars = ({trigger}) => {
 
     return (
         <>
-            {cars.map(car => <Car key={car.id} car={car}/>)}
+            {cars.map(car => <Car key={car.id} car={car} update={update}/>)}
         </>
     );
 };

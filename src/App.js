@@ -10,11 +10,12 @@ function App() {
     const update = data => {
         setTrigger(data)
     }
+
     return (
         <div>
             <Form update={update}/>
             <div className={'main'}>
-                <Cars trigger={trigger}/>
+                <Cars trigger={trigger} update={update}/>
             </div>
         </div>
     );
