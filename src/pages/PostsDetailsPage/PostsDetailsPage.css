@@ -1,0 +1,23 @@
+.main_posts_details h1 {
+    margin-left: 270px;
+}
+
+.main_posts_details_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+
+.main_posts_details_box span {
+    font-weight: bold;
+}
+
+.main_posts_details_box button {
+    margin-top: 10px;
+    margin-left: 270px;
+}

@@ -12,3 +12,7 @@
     color: snow;
     text-decoration: none;
 }
+
+.header a[class='active'] {
+    color: lightpink;
+}

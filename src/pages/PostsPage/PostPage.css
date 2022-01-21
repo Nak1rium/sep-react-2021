@@ -1,0 +1,12 @@
+.post_page_main {
+    display: flex;
+}
+
+.post_page_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.post_page_box h1 {
+    margin-left: 270px;
+}
