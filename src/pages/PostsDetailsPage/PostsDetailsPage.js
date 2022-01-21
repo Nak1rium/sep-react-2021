@@ -9,7 +9,7 @@ const PostsDetailsPage = () => {
 
     const {id} = useParams();
     const {state} = useLocation();
-    const [post, setPost] = useState(null);
+    const [post, setPost] = useState([]);
 
     useEffect(() => {
         if (state) {

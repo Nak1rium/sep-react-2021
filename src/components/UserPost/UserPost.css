@@ -1,0 +1,11 @@
+.user_post_box {
+    margin: 10px 0 0 60px;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.user_post_box span {
+    font-weight: bold;
+}

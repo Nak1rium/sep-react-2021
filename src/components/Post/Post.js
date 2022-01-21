@@ -7,7 +7,7 @@ const Post = ({post}) => {
     const {id, title} = post;
 
     const componentDidMount = () => {
-        window.scrollTo(0, 0)
+        window.scrollTo({ top: 0, behavior: 'smooth' })
     }
 
     return (

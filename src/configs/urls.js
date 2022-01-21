@@ -3,6 +3,10 @@ const baseURL = 'https://jsonplaceholder.typicode.com/';
 export default baseURL
 
 export const urls = {
+    users:'/users',
     posts:'/posts',
-    comments:'/comments'
+    comments:'/comments',
+    albums:'/albums',
+    album:'/album',
+    photos:'/photos'
 }

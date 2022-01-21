@@ -1,0 +1,7 @@
+.users_page_main h1 {
+    margin-left: 170px;
+}
+
+.users_page_box {
+    display: flex;
+}

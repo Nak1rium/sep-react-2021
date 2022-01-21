@@ -1,0 +1,14 @@
+.user_main {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.user_main button {
+    margin-left: 5px;
+}
