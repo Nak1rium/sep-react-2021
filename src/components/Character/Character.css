@@ -1,0 +1,79 @@
+.main_character_box {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    width: 550px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: whitesmoke;
+}
+
+.img img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 230px;
+    height: 220px;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 220px;
+    background: #3b3a3a;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.name {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.box {
+    display: flex;
+    margin-left: 5px;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 7px 5px 0px 5px;
+}
+
+.ball.green {
+    background-color: yellowgreen;
+}
+
+.ball.red {
+    background-color: red;
+}
+
+.ball.grey {
+    background-color: grey;
+}
+
+.species {
+    margin-left: 4px;
+}
+
+.origin {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.origin span {
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+}
+
+.last_location {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.last_location span {
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+}

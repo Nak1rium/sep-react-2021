@@ -1,0 +1,7 @@
+.characters_main_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 40, 47);
+}
