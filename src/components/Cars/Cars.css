@@ -1,0 +1,11 @@
+.cars_box {
+    display: flex;
+    justify-content: center;
+}
+
+.cars_container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
