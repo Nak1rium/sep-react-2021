@@ -1,0 +1,16 @@
+.user_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.user_box span {
+    font-weight: bold;
+}

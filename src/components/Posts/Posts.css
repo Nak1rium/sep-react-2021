@@ -1,0 +1,10 @@
+.main_box_posts {
+    margin-top: 10px;
+}
+
+.box_of_posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.header {
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header a {
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    color: snow;
+}

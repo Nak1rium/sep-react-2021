@@ -1,0 +1,13 @@
+.main_box_users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.users_box {
+    width: 1000px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
