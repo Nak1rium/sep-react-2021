@@ -1,0 +1,27 @@
+.todo_box {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 400px;
+    height: 45px;
+    align-items: center;
+}
+
+.todo {
+    font-size: 30px;
+}
+
+.todo_box button {
+    margin-left: 20px;
+}
+
+.todo_box input {
+    margin-right: 20px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
