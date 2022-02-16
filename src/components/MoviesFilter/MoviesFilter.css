@@ -1,0 +1,122 @@
+.movies_filter {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 130px;
+    background: black;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: Trebuchet MS, serif;
+    color: #dddddd;
+}
+
+.filter_button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+}
+
+i {
+    border: solid #a6a6a6;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.buttons_box {
+    display: flex;
+    width: 550px;
+    column-gap: 70px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #a6a6a6;
+    position: relative;
+}
+
+.filter_menu {
+    background: black;
+    position: absolute;
+    z-index: 50;
+    box-shadow: 0 0 5px black;
+}
+
+.genres {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 123px;
+    padding: 10px;
+    height: 225px;
+}
+
+.genres::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: black;
+}
+
+.genres::-webkit-scrollbar {
+    width: 3px;
+    background-color: black;
+}
+
+.genres::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #a6a6a6;
+}
+
+.year {
+    width: 100px;
+    padding: 10px;
+    height: 225px;
+}
+
+.filter {
+    width: 150px;
+    padding: 10px;
+}
+
+.margin {
+    margin: 5px 0 0 0;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.margin:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+    margin: 5px 0 0 0;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}

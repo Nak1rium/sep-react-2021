@@ -1,0 +1,34 @@
+.main_box_MoviesListCard {
+    margin: 10px 10px 30px 10px;
+    padding: 10px;
+    width: 220px;
+    height: 360px;
+    position: relative;
+
+    font-family: Trebuchet MS,serif;
+}
+
+.year_and_genre_box {
+    display: flex;
+    font-size: 13px;
+    color: grey;
+}
+
+.movie_list_card_link  {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.movie_list_card_link:hover {
+    color: red;
+}
+
+.movie_list_card_link:hover .poster_preview_img.play_button_box {
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.movie_list_card_link:hover .poster_preview_img .play_button {
+    border-color: transparent transparent transparent white;
+    z-index: 10;
+}
+

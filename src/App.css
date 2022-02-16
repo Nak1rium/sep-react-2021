@@ -1,3 +1,14 @@
-.TheCurse {
-    display: flex;
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: 1s;
+}
+
+.dark {
+    background-color: black;
 }

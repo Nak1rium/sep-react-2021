@@ -1,18 +1,21 @@
-import './App.css';
-import Users from "./components/Users/Users";
-import Comments from "./components/Comments/Comments";
-import Posts from "./components/Posts/Posts";
+import {Route, Routes} from "react-router-dom";
 
+import './App.css';
+import Header from "./components/Header/Header";
+import MovieInfo from "./components/MovieInfo/MovieInfo";
+import MoviesPage from "./components/pages/MoviesPage/MoviesPage";
 
 function App() {
+
     return (
-        <div>
-            <div className={'TheCurse'}>
-                <Users/>
-                <Comments/>
-            </div>
-            <Posts/>
-        </div>
+        <>
+            <Routes>
+                <Route path={'/'} element={<Header/>}>
+                    <Route path={'/'} element={<MoviesPage/>}/>
+                    <Route path={'/:title'} element={<MovieInfo/>}/>
+                </Route>
+            </Routes>
+        </>
     );
 }
 
